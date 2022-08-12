@@ -1,0 +1,24 @@
+{
+  "name": "js-analysis-challenge",
+  "version": "1.0.0",
+  "description": "Challenge js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianMolina972/js-analysis-challenge.git"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "Julian Molina <juliandavidmv@ufps.edu.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulianMolina972/js-analysis-challenge/issues"
+  },
+  "homepage": "https://github.com/JulianMolina972/js-analysis-challenge#readme"
+}
