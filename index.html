@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css">
+  <title>Challenge with JS</title>
+</head>
+<body>
+  <header>
+    <h1>Capacidad de endeudamiento y ahorro</h1>
+  </header>
+  <main>
+    <section class="main__form">
+      <form>
+        <label for="ingresos">
+          <span>Ingrese sus ingresos totales mensuales en dólares:</span>
+          <input type="number" id="ingresos" placeholder="valores en dólares $">
+        </label>
+        <label for="gastos">
+          <span>Ingrese sus gastos totales mensuales en dólares:</span>
+          <input type="number" id="gastos" placeholder="valores en dólares $">
+        </label>
+        <div id="error-datos"></div>
+        <button type="button" class="form__button" id="button">Calcular</button>
+      </form>
+    </section>
+    <section class="main__resultados">
+      <article class="card">
+        <h2>Capacidad de endeudamiento</h2>
+        <p>El rango de endeudamiento está entre el (0.25% - 0.40%) en este caso se calcula con 0.35%</p>
+        <div id="endeudamiento"></div>
+      </article>
+      <article class="card">
+        <h2>Capacidad de ahorro</h2>
+        <p>El porcentaje de ahorro puede variar por diferentes factores, en este caso se calcula con el 10%</p>
+        <div id="ahorros"></div>
+      </article>
+      <articled class="card">
+        <h2>Ahorro anual invertido</h2>
+        <p>Este es el valor que ganarías si, inviertes en un producto financiero que te retorne el 10% anualmente </p>
+        <div id="inversion"></div>
+      </articled>
+    </section>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
